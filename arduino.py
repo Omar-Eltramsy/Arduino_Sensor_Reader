@@ -32,7 +32,7 @@ worksheet.write('B1', 'Measured')
 
 # Write data to the Excel file
 for row_num, measured_value in enumerate(data, start=1):  # Start at row 1
-    worksheet.write(row_num, 0, 30)  # Writing "Actual" value (assuming it's always 30)
+    worksheet.write(row_num, 0, 50)  # Writing "Actual" value (assuming it's always 30)
     worksheet.write(row_num, 1, measured_value)  # Writing "Measured" value from serial
 
 # Save and close the workbook
