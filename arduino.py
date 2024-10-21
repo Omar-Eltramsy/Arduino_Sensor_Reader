@@ -1,4 +1,3 @@
-#!/usr/
 import serial.tools.list_ports
 import xlsxwriter
 import time
